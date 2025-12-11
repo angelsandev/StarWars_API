@@ -1,0 +1,131 @@
+/*
+-----------------------------------------------------------
+ESTILOS
+-----------------------------------------------------------
+*/
+
+body {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 20px;
+  background-color: #000;
+  color: #ffe81f;
+  letter-spacing: 2px;
+}
+
+
+/*
+-----------------------------------------------------------
+ESTILO PARA LAYOUT PRINCIPAL 
+Donde se muestran todas las Cards
+-----------------------------------------------------------
+*/
+
+
+.controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+/*
+-----------------------------------------------------------
+ESTILO PARA SELECT Y BOTON DE BÚSQUEDA
+-----------------------------------------------------------
+*/
+
+select,
+input[type="text"],
+.button-yellow {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+.button-yellow {
+  background-color: #ffe81f;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-yellow:hover {
+  background-color: #ffcc00;
+}
+
+
+/*
+-----------------------------------------------------------
+ESTILO PARA CARDS DE PERSONAJES, NAVES, PLANETAS
+-----------------------------------------------------------
+*/
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #2c2c2c;
+  padding: 15px;
+  border-radius: 10px;
+  width: 250px;
+  position: relative;
+  box-shadow: 0 0 10px rgba(255, 232, 31, 0.3);
+}
+
+.card h2 {
+  color: #ffe81f;
+  margin-top: 5px;
+}
+
+.card small {
+  display: block;
+  margin-top: 5px;
+}
+
+.card-title-link {
+  color: #ffe81f;
+  text-decoration: underline;
+  font-size: 0.9rem;
+}
+
+
+/*
+-----------------------------------------------------------
+ESTILO PARA ICONO FAVORITO
+La funcionalidad Favorito no está implementada
+-----------------------------------------------------------
+*/
+
+.favorite {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #444;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffe81f;
+  font-size: 1rem;
+}
+
+.favorite:hover {
+  background-color: #555;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Star Wars API</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script></script>
+  </head>
+  <body>
+    <header>THE STAR WARS API</header>
+
+    <div class="controls">
+      
+      <!------------------ SELECCIONAR CATEGORÍA ----------------------------------->
+      
+      <select id="categoria-select">
+        <option value="personajes">Personajes</option>
+        <option value="planetas">Planetas</option>
+        <option value="naves">Naves</option>
+      </select>
+      <input type="text" id="input-buscar" placeholder="Buscar en la API" />
+      <button class="button-yellow" id="botonBuscar">🔍 Buscar</button>
+
+      <!------------------ Queda pendiente ------------------------------------------>
+
+      <!-- <button class="button-yellow">📋 Listar Todo</button>
+      <button class="button-yellow">⭐ Favoritos</button>
+  -->
+    </div>
+
+    <main>
+
+      <!------------------ MOSTRAR DATOS RECOGIDOS ------------------------------------>
+
+      <section id="personajes" class="cards-container"></section>
+
+      <section id="planetas" class="cards-container"></section>
+
+      <section id="naves" class="cards-container"></section>
+    </main>
+
+    
+    <script src="scriptV5.js"></script>
+  </body>
+</html>
