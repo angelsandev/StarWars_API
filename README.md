@@ -1,4 +1,4 @@
-# 🚀 Mi Portfolio Personal - Ángel Sánchez
+# 🚀 STAR WARS API - Ángel Sánchez
 
 Bienvenido al repositorio de mi API de STAR WARS. Objetivo:
 * Acceder a una API externa de `STAR WARS`.
@@ -44,7 +44,7 @@ Funciones para crear letras aleatorias o funciones para crear personajes aleator
 
 ![Gestión en JavaScript](./src/images/Gestión%20en%20JavaScript.png)
 
-### 🌐 Consumo de APIs Externas (Fetch API)
+### 3. Consumo de APIs Externas (Fetch API)
 
 He implementado el uso de la **Fetch API** de JavaScript para la recuperación dinámica de datos:
 
@@ -82,3 +82,9 @@ Si necesitar observar este proyecto de forma local:
 │   └── images/         # Assets y capturas de los proyectos
 ├── README.md
 └── CHANGELOG.md
+```
+
+## ✍️ Autor
+Hecho con ❤️ por [**Ángel Sánchez Guillén**](https://github.com/tu-usuario)
+
+[![Email](https://img.shields.io/badge/Email-geletesan@hotmail.com-red?style=flat-square&logo=gmail)](mailto:geletesan@hotmail.com)

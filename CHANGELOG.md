@@ -1,5 +1,10 @@
 ## 🚀 Historial de cambios
 
+### [V0.0.5] Añadir Autor - 2026-1-12
+- **Pruebas:** ✅ Todo ok. 
+- **README:** Añadir autor al final de README.
+- **README:** Modificar título general.
+
 ### [V0.0.4] Añadir README - 2026-1-12
 - **Pruebas:** ✅ Todo ok. 
 - **Pruebas:** Añadir Readme y Changelog detallado.
